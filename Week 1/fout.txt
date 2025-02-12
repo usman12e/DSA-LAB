@@ -1,0 +1,8 @@
+my name is usman 
+this is my first lab journal
+
+Sentence count = 2
+
+Word count = 6
+
+Character count = 28
