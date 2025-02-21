@@ -1,1 +1,10 @@
-
+Implemented a stack using an array with basic operations like push(), pop(), and peek().
+Learned to handle stack overflow and underflow conditions.
+Used a stack to reverse a string, demonstrating the Last In, First Out (LIFO) principle.
+Implemented a generic stack using C++ templates to work with different data types.
+Used dynamic memory allocation for stack storage and learned to manage memory using constructors and destructors.
+Applied a stack to check the validity of parentheses in an expression.
+Processed characters in an expression by pushing and popping brackets to determine correctness.
+Implemented infix to postfix conversion using a stack.
+Understood operator precedence and associativity for expression evaluation.
+Evaluated a postfix expression using a stack for computation.
