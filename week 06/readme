@@ -1,1 +1,11 @@
+Linked List Basics
 
+Learned how to create and manage a singly linked list using dynamic memory allocation (new, delete).
+
+Templates in C++
+
+You used template<class ItemType> to create a generic list class that works with any data type (e.g., int, char).
+
+Class Design
+
+You practiced creating classes with private/protected members, public interfaces, and destructors for memory cleanup.
