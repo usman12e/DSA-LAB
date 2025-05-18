@@ -1,1 +1,19 @@
+What a Deque Is
 
+A Deque (Double Ended Queue) allows insertion and deletion from both ends: left and right.
+
+Circular Array Logic
+
+You’ve implemented the deque using a circular array, managing the left and right pointers to wrap around when necessary.
+
+Overflow and Underflow Conditions
+
+You check for overflow when the deque is full and underflow when it's empty.
+
+Dynamic Memory Allocation
+
+You dynamically allocate memory for the deque using new and deallocate using delete[] in the destructor.
+
+Template Programming
+
+The class is generic using templates (template <typename T>), so it works for any data type
