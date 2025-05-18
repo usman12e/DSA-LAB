@@ -1,1 +1,27 @@
+Definition of Queue
 
+A Queue is a linear data structure that follows the FIFO (First In, First Out) principle.
+
+Queue Operations
+
+Basic operations include:
+
+enqueue(x) – insert at the rear
+
+dequeue() – remove from the front
+
+isEmpty(), isFull(), peek()
+
+Array Implementation
+
+You used a fixed-size array to implement the queue with front and rear pointers.
+
+Circular Queue Concept (if applied)
+
+If implemented circularly, you learned to wrap indices around the array when the end is reached.
+
+Underflow and Overflow Conditions
+
+Underflow: trying to dequeue when the queue is empty.
+
+Overflow: trying to enqueue when the queue is full
