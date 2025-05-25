@@ -1,1 +1,35 @@
+Binary Search Tree Concepts
 
+A Binary Search Tree (BST) organizes data so that the left child is less than the parent and the right child is greater.
+
+Inorder traversal of a BST always gives data in sorted order.
+
+C++ Templates
+
+You learned how to use template<typename T> to make a class generic and reusable for any data type, such as int, float, or string.
+
+Using Raw Arrays
+
+Instead of using vectors, you learned how to pass raw arrays to functions.
+
+You manually managed array indexing while collecting traversal results.
+
+Recursive Tree Operations
+
+You implemented recursive insertion into the BST.
+
+You used recursive inorder traversal to collect sorted elements.
+
+You used recursion to safely delete all nodes in the destructor.
+
+Memory Management
+
+Nodes were dynamically allocated using new.
+
+You learned to clean up memory using a recursive clear() function to avoid memory leaks.
+
+Sorting with BST
+
+You used a BST to sort an array of strings.
+
+This gave you insight into how trees can be used for sorting as an alternative to built-in sorting functions.
