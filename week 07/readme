@@ -1,1 +1,42 @@
+ 1. Template Class
+Used template <class T> to make the list work with any data type (int, float, string, etc.).
 
+ 2. Doubly Linked List Structure
+Each node contains:
+
+T data – the value.
+
+node* prev – pointer to the previous node.
+
+node* next – pointer to the next node.
+
+ 3. Constructors
+Default constructor: Initializes head and tail to NULL.
+
+Array constructor: Accepts a static array and fills the list using push_back.
+
+ 4. Core Operations
+push_back(T data) – Adds a new node at the end.
+
+push_front(T data) – Adds a new node at the front.
+
+pop_back() – Removes and returns the value from the end.
+
+pop_front() – Removes and returns the value from the front.
+
+ 5. Utility Functions
+empty() – Returns true if the list is empty.
+
+operator bool() – Enables checks like while (dlist).
+
+ 6. Destructor
+Frees all allocated memory by deleting each node to avoid memory leaks.
+
+7. Usage Example
+In main():
+
+Created a list from an array: {4, 6, 8, 32, 19}
+
+Added 11 to the end and 100 to the front.
+
+Popped and printed all elements from the back in a loop.
