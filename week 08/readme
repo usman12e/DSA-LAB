@@ -1,1 +1,54 @@
+Binary Tree Concepts
+Binary Tree Types:
 
+Static Binary Tree using arrays (fixed size, index-based).
+
+Dynamic Binary Tree using pointers (node-based, flexible).
+
+Tree Node Relationships:
+
+Left child index = 2*i + 1 (static)
+
+Right child index = 2*i + 2 (static)
+
+In dynamic trees, left and right children are pointers (left, right).
+
+ C++ Programming Concepts
+Template Classes:
+
+Used template<typename T> to make tree classes generic (e.g., for int, string, etc.).
+
+Encapsulation:
+
+Used private data and public methods in classes for abstraction and encapsulation.
+
+Pointer Usage (in dynamic trees):
+
+Created nodes using new and linked them via left and right pointers.
+
+ Binary Tree Traversal Algorithms
+Inorder Traversal (Left → Root → Right):
+
+Used to visit nodes in sorted order (for BSTs).
+
+Preorder Traversal (Root → Left → Right):
+
+Useful for creating a copy of the tree or prefix expressions.
+
+Postorder Traversal (Left → Right → Root):
+
+Useful for deleting or freeing nodes.
+
+Recursive Functions:
+
+All traversal algorithms are implemented using recursion.
+
+How to Build Trees:
+
+Insert root, left and right children step-by-step.
+
+Understand limitations of static trees (fixed size).
+
+Generic Tree Creation:
+
+Can now build trees of any type (int, float, string, custom objects) using templates.
