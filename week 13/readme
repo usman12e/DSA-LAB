@@ -1,1 +1,46 @@
+Sorting Algorithms
+🔹 Bubble Sort:
 
+Compares each pair and swaps if out of order.
+
+Stops early if no swaps are made in a pass.
+
+Tracks number of comparisons and exchanges.
+
+🔹 Insertion Sort:
+
+Builds the sorted array one element at a time.
+
+Shifts larger elements to the right to insert the current element in place.
+
+Also tracks comparisons and exchanges.
+
+🔹 Selection Sort:
+
+Finds the smallest element and places it at the start.
+
+Repeats for the rest of the array.
+
+Uses a minimum index (key) and swaps only once per pass.
+
+Tracks comparisons and exchanges.
+
+🧮 Performance Metrics
+🔹 comparison counter: Counts how many comparisons were made during sorting.
+
+🔹 exchange counter: Counts how many times elements were swapped or shifted.
+
+⏱️ Measuring Time
+🔹 Uses time_t and difftime() to measure how long a user takes to type their name.
+
+🔹 Demonstrates how to calculate and display elapsed time.
+
+📦 Memory Management
+🔹 Uses new to dynamically allocate an array based on user input.
+
+🔹 Uses delete[] to free the memory afterward.
+
+🖥️ User Interaction
+🔹 Takes user input to define array size and values.
+
+🔹 Asks for user's name and calculates typing time.
