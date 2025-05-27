@@ -1,1 +1,22 @@
+✅ vector: Dynamic array used for storage and manipulation of integers and strings.
+
+✅ list: Doubly linked list used for fast insertions/removals from both ends.
+
+✅ deque: Double-ended queue used like a queue with random access.
+
+✅ stack: LIFO (Last-In-First-Out) structure using a list as the underlying container.
+
+✅ bitset: Efficient way to store and manipulate bits.
+
+✅ string (custom): You created a custom string class using C-style strings with memory allocation and comparison.
+
+🔁 Algorithms and Functions
+✅ random_shuffle(): Randomly shuffles elements of a container.
+
+✅ find(): Finds an element in a container using an iterator.
+
+✅ set_union(): Merges two sorted sets into one without duplicates.
+
+✅ fill() and fill_n(): Fills containers or arrays with a specific value.
+
 
