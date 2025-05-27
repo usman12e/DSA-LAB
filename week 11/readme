@@ -1,1 +1,19 @@
+🔹 How to represent a graph using an adjacency matrix (2D array).
 
+🔹 How to create a Graph class to encapsulate graph operations.
+
+🔹 How to add edges to the graph using the adjacency matrix.
+
+🔹 How to implement Depth First Search (DFS) using recursion and a visited array.
+
+🔹 How to implement Breadth First Search (BFS) using a queue built with arrays.
+
+🔹 The difference between DFS (deep before wide) and BFS (level by level).
+
+🔹 How to take user input to build and traverse a graph.
+
+🔹 How to display the graph using an adjacency matrix.
+
+🔹 How to handle undirected graphs (bidirectional edges).
+
+🔹 Basic use of arrays to simulate data structures like queues.
