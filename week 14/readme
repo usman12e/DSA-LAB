@@ -1,1 +1,22 @@
+Search Algorithms
+🔹 Sequential (Linear) Search:
+
+Goes through the array one element at a time.
+
+Works on unsorted arrays.
+
+Tracks how many comparisons were made.
+
+Simple but inefficient for large arrays.
+
+🔹 Binary Search:
+
+Requires the array to be sorted first.
+
+Divides the search space in half each time (divide-and-conquer approach).
+
+Much faster than sequential search for large data sets.
+
+Also tracks comparisons made.
+
 
